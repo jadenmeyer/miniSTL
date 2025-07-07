@@ -1,0 +1,25 @@
+#ignore build files:
+/build/
+/bin/ 
+/obj/
+/out/
+.clangd
+.clang-format
+
+# ignore CMake files:
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake 
+*.cmake
+
+#nvim 
+*~
+~.nvimback
+*.swp
+.nvim/
+include/miniSTL/failed/
+# others
+*.log 
+*.tmp 
+*.bak
